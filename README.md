@@ -26,7 +26,7 @@ chmod +x initdb.sh
 python3 data_manager.py import -i data/AllPublicXML
 ```
 
-6. Update config file by using sample cofing file. The config file is located in `visual/sample-config.yml`. Name config to `config.yml` in the same directoy. It can be done as following as well:
+6. Update config file by using sample config file. The config file is located in `visual/sample-config.yml`. Name config to `config.yml` in the same directoy. It can be done as following as well:
 ```console
 cp visual/sample-config.yml visual/config.yml
 # EDIT config.yml WITH ANY EDITOR
